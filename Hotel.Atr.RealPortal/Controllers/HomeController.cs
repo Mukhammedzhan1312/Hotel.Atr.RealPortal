@@ -24,10 +24,5 @@ namespace Hotel.Atr.RealPortal.Controllers
         }
 
 
-        public IActionResult Event()
-        {
-            return View();
-        }
-
     }
 }
