@@ -23,6 +23,12 @@ namespace Hotel.Atr.RealPortal.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult AddMessage(string name, string email, string message)
+        {
+            return View();
+        }
+
 
     }
 }
